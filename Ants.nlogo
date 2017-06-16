@@ -14,8 +14,8 @@ to setup
   clear-all
   set-default-shape turtles "bug"
   create-turtles population
-  [ set size 2         ;; easier to see
-    set color red  ]   ;; red = not carrying food
+  [ set size 5         ;; easier to see
+    set color green  ]   ;; red = not carrying food
   setup-patches
   reset-ticks
 end
